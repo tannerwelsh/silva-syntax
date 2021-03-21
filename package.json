@@ -1,0 +1,15 @@
+{
+  "name": "silva-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "An enchanted forest theme, built for my nerdy love.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/tannerwelsh/silva-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
