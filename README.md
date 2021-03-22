@@ -2,4 +2,4 @@
 
 An enchanted forest theme, built for my nerdy love.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot of the theme](https://user-images.githubusercontent.com/709100/111926701-7f818980-8a73-11eb-96e5-2d26c38c6738.png)
