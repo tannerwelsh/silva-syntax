@@ -55,7 +55,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @brown;
+  color: @blue-lt;
 }
 
 .syntax--keyword {
@@ -66,7 +66,7 @@ atom-text-editor {
   }
 
   &.syntax--operator {
-    color: @syntax-text-color;
+    color: @white;
   }
 
   &.syntax--other.syntax--special-method {
@@ -94,11 +94,11 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--color {
-    color: @lavender;
+    color: @white;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @gold;
+    color: @aqua-green;
   }
 }
 
@@ -110,7 +110,7 @@ atom-text-editor {
   }
 
   &.syntax--parameter.syntax--function {
-    color: @syntax-text-color;
+    color: lighten(@syntax-text-color, 10%);
   }
 }
 
@@ -124,7 +124,7 @@ atom-text-editor {
 
 
   &.syntax--regexp {
-    color: @lavender;
+    color: @brown;
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @gold-lt;
@@ -139,7 +139,7 @@ atom-text-editor {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @brown;
+      color: @blue-lt;
     }
 
     &.syntax--string,
@@ -173,11 +173,11 @@ atom-text-editor {
 
 .syntax--support {
   &.syntax--class {
-    color: @lavender;
+    color: @gold;
   }
 
   &.syntax--function  {
-    color: @lavender;
+    color: @gold;
 
     &.syntax--any-method {
       color: @lavender-lt;
@@ -198,7 +198,7 @@ atom-text-editor {
     color: @aqua-green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @lavender;
+    color: @gold;
   }
 
   &.syntax--name.syntax--section {
@@ -206,15 +206,15 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @aqua-green;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @gold-lt;
+    color: @gold;
 
     &.syntax--id {
-      color: @lavender-lt;
+      color: @gold;
     }
   }
 }
@@ -261,7 +261,7 @@ atom-text-editor {
   }
 
   &.syntax--italic {
-    color: @purple;
+    color: @lavender;
     font-style: italic;
   }
 
